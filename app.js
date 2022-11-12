@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 //now making new DB
+
 mongoose.connect(
   "mongodb+srv://admin-vibhu:%40Vibhu16@cluster0.4q8yj8k.mongodb.net/todolistDB"
 );
